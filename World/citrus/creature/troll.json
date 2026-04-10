@@ -1,0 +1,18 @@
+{
+    "name": "Troll",
+    "avatar": "troll",
+    "healthStats": [
+        {"health": 300},
+        {"endurance": 0},
+        {"damage": 20},
+        {"speed": "low"},
+        {"notice": "low"},
+    ],
+    "location": ["surface"],
+    "spawn_naturally": true,
+    "boss": true,
+    "diety": false,
+    "onTurn": [],
+    "onAttack": [],
+    "onDamaged": []
+}

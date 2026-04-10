@@ -1,0 +1,20 @@
+{
+    "states": {
+        "ripe": {
+            "name": "Apple",
+            "emoji": "🍎",
+            "deafult": true
+        },
+        "unripe": {
+            "name": "Apple",
+            "emoji": "🍏"
+        },
+        "spoiled": {
+            "name": "Apple",
+            "emoji": "🥩"
+        }
+    },
+    "category": "plant",
+    "rarity": "common",
+    "tradeable": true
+}

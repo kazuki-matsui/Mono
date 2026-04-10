@@ -1,0 +1,32 @@
+{
+    "label": ["You found a coin!", "A coin is liying on the ground"],
+    "input": [
+        {
+            "quality": {
+                "type": "input_string",
+                "label": "Make a wish",
+                "placeholder": "Enter your wish here",
+                "id": "interaction.coin.wish"
+            },
+            "output": "interaction.coin.wish"
+        }
+    ],
+    "option": [
+        {
+            "id": "interaction.coin.accept",
+            "name": "Accept",
+            "trigger": {
+                "name": "coin.manage",
+                "field": [
+                    {"type": "addition"},
+                    {"amount": 3}
+                ]
+            }
+        },
+        {
+            "id": "interaction.coin.decline",
+            "name": "Decline",
+            "emoji": "🚫"
+        }
+    ]
+}

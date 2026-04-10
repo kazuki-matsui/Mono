@@ -1,0 +1,11 @@
+{
+    "name": "Wither",
+    "polarity": "negative",
+    "statAffection": [
+        {
+            "stat": "health",
+            "type": "subtraction",
+            "amount": "20"
+        }
+    ]
+}
