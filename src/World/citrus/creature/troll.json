@@ -6,7 +6,7 @@
         {"endurance": 0},
         {"damage": 20},
         {"speed": "low"},
-        {"notice": "low"},
+        {"notice": "low"}
     ],
     "location": ["surface"],
     "spawn_naturally": true,
