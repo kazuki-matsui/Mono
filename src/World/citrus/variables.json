@@ -5,7 +5,8 @@
     "damage": null,
     "speed":  null,
     "notice":  null,
-    "temperatureTolerance":  null,
+    "temperatureToleranceWarm":  null,
+    "temperatureToleranceHot": null,
     "experience": null},
   "statsCurrent": {
     "health": null,
