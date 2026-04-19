@@ -1,3 +1,13 @@
 {
-  "stats": ["health", "damage", "notice"]
+  "stats": {
+    "health":  null,
+    "endurance": null,
+    "damage": null,
+    "speed":  null,
+    "notice":  null,
+    "temperatureTolerance":  null,
+    "experience": null},
+  "statsCurrent": {
+    "health": null
+  }
 }
