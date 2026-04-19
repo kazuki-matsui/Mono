@@ -8,6 +8,9 @@
     "temperatureTolerance":  null,
     "experience": null},
   "statsCurrent": {
-    "health": null
+    "health": null,
+    "energy": null,
+    "temperature": null,
+    "mana": null
   }
 }
