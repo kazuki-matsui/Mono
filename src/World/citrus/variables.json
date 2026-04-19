@@ -1,17 +1,31 @@
 {
-  "stats": {
-    "health":  null,
-    "endurance": null,
-    "damage": null,
-    "speed":  null,
-    "notice":  null,
-    "temperatureToleranceWarm":  null,
-    "temperatureToleranceHot": null,
-    "experience": null},
-  "statsCurrent": {
-    "health": null,
-    "energy": null,
-    "temperature": null,
-    "mana": null
+  "stat": {
+    "statPlayer": {
+      "health":  null,
+      "endurance": null,
+      "damage": null,
+      "speed":  null,
+      "notice":  null,
+      "temperatureToleranceWarm":  null,
+      "temperatureToleranceHot": null,
+      "experience": null,
+      "divinityAlignment": null,
+      "reputation": null,
+      "karma": null
+    },
+    "statPlayerCurrent": {
+      "health": null,
+      "energy": null,
+      "temperature": null,
+      "arcana": null
+    },
+    "statCreature": {
+      "health": null,
+      "healthMax": null,
+      "endurance": null,
+      "damage": null,
+      "speed": null,
+      "notice": null
+    }
   }
 }

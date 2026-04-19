@@ -16,5 +16,6 @@
     },
     "category": "plant",
     "rarity": "common",
+    "value": "1",
     "tradeable": true
 }

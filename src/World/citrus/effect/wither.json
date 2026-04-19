@@ -1,11 +1,9 @@
 {
     "name": "Wither",
     "polarity": "negative",
-    "statAffection": [
-        {
-            "stat": "health",
+    "trigger": [{
+            "variable": "health",
             "type": "subtraction",
             "amount": "20"
-        }
-    ]
+    }]
 }
