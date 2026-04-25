@@ -9,31 +9,6 @@ const commands = [
     {
         name: 'cheats',
         description: 'Opens the cheat menu',
-    },
-    {
-        name: 'documents',
-        description: 'Sends up the modding documentation',
-        options: [
-            {
-                name: 'section',
-                description: 'What is the section',
-                type: ApplicationCommandOptionType.String,
-                required: true,
-                choices: [
-                    { name: 'Assets', value: 'assets' },
-                    { name: 'Creatures', value: 'creatures' },
-                    { name: 'Dimensions', value: 'dimensions' },
-                    { name: 'Encounter', value: 'encounter' },
-                    { name: 'Stations', value: 'stations' },
-                    { name: 'Structures', value: 'structures' },
-                    { name: 'Effects', value: 'effects' },
-                    { name: 'Events', value: 'events' },
-                    { name: 'Items', value: 'items' },
-                    { name: 'Player', value: 'player' },
-                    { name: 'Variables', value: 'variables' }
-                ]
-            }
-        ]
     }
 ];
 

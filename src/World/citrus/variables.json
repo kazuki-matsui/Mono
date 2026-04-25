@@ -1,8 +1,9 @@
 {
   "stat": {
-    "statPlayer": {
+    "player": {
       "health":  {},
       "endurance": {},
+      "energy": {},
       "damage": {},
       "speed":  {},
       "notice":  {},
@@ -10,22 +11,41 @@
       "temperatureToleranceHot": {},
       "experience": {},
       "divinityAlignment": {},
-      "reputation": {},
       "karma": {}
     },
-    "statPlayerCurrent": {
+    "playerCurrent": {
       "health": {},
       "energy": {},
       "temperature": {},
       "arcana": {}
     },
-    "statCreature": {
+    "creature": {
       "health": {},
       "healthMax": {},
       "endurance": {},
       "damage": {},
       "speed": {},
       "notice": {}
+    }
+  },
+  "reputation": {
+    "global": {
+      "value": {},
+      "fraudster": {},
+      "thief": {},
+      "robber": {},
+      "jerk": {},
+      "jokester": {},
+      "murderer": {}
+    },
+    "town": {
+      "value": {},
+      "fraudster": {},
+      "thief": {},
+      "robber": {},
+      "jerk": {},
+      "jokester": {},
+      "murderer": {}
     }
   }
 }
