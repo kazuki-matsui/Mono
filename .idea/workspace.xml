@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35beea1c-93cb-4737-a340-56d67cb18647" name="Changes" comment="Made changes to commands. Tried testing link buttons and button collectors">
-      <change beforePath="$PROJECT_DIR$/src/World/citrus/variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/World/citrus/variables.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +150,7 @@
       <workItem from="1776625307396" duration="2732000" />
       <workItem from="1776692598290" duration="8979000" />
       <workItem from="1777111424483" duration="4024000" />
-      <workItem from="1777115488597" duration="2073000" />
+      <workItem from="1777115488597" duration="2414000" />
     </task>
     <task id="LOCAL-00001" summary="Added World.mono&#10;It is an archive based on zip and is composed of JSON to handle game data">
       <option name="closed" value="true" />
@@ -320,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777114230420</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Made changes to commands. Tried testing link buttons and button collectors">
+      <option name="closed" value="true" />
+      <created>1777117969656</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1777117969656</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +344,7 @@
     <MESSAGE value="Refurbishing, general stuff" />
     <MESSAGE value="Updated default data added commands" />
     <MESSAGE value="changed gitignore" />
+    <MESSAGE value="gix" />
     <MESSAGE value="Made changes to commands. Tried testing link buttons and button collectors" />
     <option name="LAST_COMMIT_MESSAGE" value="Made changes to commands. Tried testing link buttons and button collectors" />
   </component>
