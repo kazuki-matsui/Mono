@@ -1,31 +1,31 @@
 {
   "stat": {
     "statPlayer": {
-      "health":  null,
-      "endurance": null,
-      "damage": null,
-      "speed":  null,
-      "notice":  null,
-      "temperatureToleranceWarm":  null,
-      "temperatureToleranceHot": null,
-      "experience": null,
-      "divinityAlignment": null,
-      "reputation": null,
-      "karma": null
+      "health":  {},
+      "endurance": {},
+      "damage": {},
+      "speed":  {},
+      "notice":  {},
+      "temperatureToleranceWarm":  {},
+      "temperatureToleranceHot": {},
+      "experience": {},
+      "divinityAlignment": {},
+      "reputation": {},
+      "karma": {}
     },
     "statPlayerCurrent": {
-      "health": null,
-      "energy": null,
-      "temperature": null,
-      "arcana": null
+      "health": {},
+      "energy": {},
+      "temperature": {},
+      "arcana": {}
     },
     "statCreature": {
-      "health": null,
-      "healthMax": null,
-      "endurance": null,
-      "damage": null,
-      "speed": null,
-      "notice": null
+      "health": {},
+      "healthMax": {},
+      "endurance": {},
+      "damage": {},
+      "speed": {},
+      "notice": {}
     }
   }
 }

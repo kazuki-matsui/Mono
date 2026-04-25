@@ -1,4 +1,5 @@
 require('dotenv').config();
+const jsonData = require('./test.json');
 const {
     Client,
     IntentsBitField,
@@ -17,10 +18,9 @@ const client = new Client({
     ]
 });
 
-client.on('ready', (client) => {
+client.on('clientReady', (client) => {
     console.log(`${client.user.username}`);
 })
-let buttonValue = new Map();
 client.on('interactionCreate', async (interaction) => {
     if (!interaction.isChatInputCommand()) return;
     if (interaction.commandName === 'home') {
@@ -42,23 +42,21 @@ client.on('interactionCreate', async (interaction) => {
         const actionRow = new ActionRowBuilder().addComponents(redButton, greenButton, linkButton);
         const reply = await interaction.reply({content: '# Home 🏡', components: [actionRow]});
 
-        const filter = (interaction) => interaction.user.id === interaction.author.id;
         const collector = reply.createMessageComponentCollector({
             componentType: ComponentType.Button,
-            filter,
         });
-        collector.on('collect', (i) => {
-            if(i.customId === 'red') {
-                buttonValue.set(i.user.id, 'Red');
-                i.reply(buttonValue.get(i.user.id));
-            } else if (i.customId === 'green') {
-                buttonValue.set(i.user.id, 'Green');
-                i.reply(buttonValue.get(i.user.id));
+        collector.on('collect', (interactionButton) => {
+            if(interactionButton.customId === 'red') {
+                jsonData.buttonValue[interactionButton.user.id] = 'red';
+                interactionButton.reply(jsonData.buttonValue[interactionButton.user.id]);
+            } else if (interactionButton.customId === 'green') {
+                jsonData.buttonValue[interactionButton.user.id] = 'green';
+                interactionButton.reply(jsonData.buttonValue[interactionButton.user.id]);
             }
         });
     }
     if (interaction.commandName === 'cheats') {
-        interaction.reply(buttonValue.get(interaction.user.id) ?? 'No selection yet');
+        interaction.reply(jsonData.buttonValue[interaction.user.id] ?? 'No selection yet');
     }
 });
 
