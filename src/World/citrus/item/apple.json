@@ -1,9 +1,8 @@
 {
     "states": {
-        "ripe": {
+        "default": {
             "name": "Apple",
-            "emoji": "🍎",
-            "deafult": true
+            "emoji": "🍎"
         },
         "unripe": {
             "name": "Apple",

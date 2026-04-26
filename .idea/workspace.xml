@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35beea1c-93cb-4737-a340-56d67cb18647" name="Changes" comment="Made changes to commands. Tried testing link buttons and button collectors">
+    <list default="true" id="35beea1c-93cb-4737-a340-56d67cb18647" name="Changes" comment="Changed the variables.json in order for them to correctly work with the implemented system.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/World/citrus/item/apple.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/World/citrus/item/apple.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/World/citrus/variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/World/citrus/variables.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/register-commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/register-commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -65,29 +68,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.index.js.executor": "Run",
-    "Node.js.register-commands.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "/home/kazuki/WebstormProjects/Mono/src/World/citrus/dimension/astral/apex",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion.popup",
-    "ts.external.directory.path": "/home/kazuki/programs/WebStorm-261.22158.274/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.register-commands.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kazuki/WebstormProjects/Mono/src/World/citrus/dimension/astral/apex&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion.popup&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/kazuki/programs/WebStorm-261.22158.274/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/astral/apex" />
@@ -97,11 +100,11 @@
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/the_board" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/the_board" />
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/verdant/cave" />
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/verdant/surface" />
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/verdant" />
-      <recent name="$PROJECT_DIR$/src/World/citrus/dimension/verdant/structure" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -151,7 +154,8 @@
       <workItem from="1776625307396" duration="2732000" />
       <workItem from="1776692598290" duration="8979000" />
       <workItem from="1777111424483" duration="4024000" />
-      <workItem from="1777115488597" duration="4046000" />
+      <workItem from="1777115488597" duration="4196000" />
+      <workItem from="1777197588450" duration="5861000" />
     </task>
     <task id="LOCAL-00001" summary="Added World.mono&#10;It is an archive based on zip and is composed of JSON to handle game data">
       <option name="closed" value="true" />
@@ -345,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777118165393</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Changed the variables.json in order for them to correctly work with the implemented system.">
+      <option name="closed" value="true" />
+      <created>1777119801327</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1777119801327</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +375,7 @@
     <MESSAGE value="changed gitignore" />
     <MESSAGE value="gix" />
     <MESSAGE value="Made changes to commands. Tried testing link buttons and button collectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made changes to commands. Tried testing link buttons and button collectors" />
+    <MESSAGE value="Changed the variables.json in order for them to correctly work with the implemented system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the variables.json in order for them to correctly work with the implemented system." />
   </component>
 </project>

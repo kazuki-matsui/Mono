@@ -47,5 +47,18 @@
       "jokester": {},
       "murderer": {}
     }
+  },
+  "playerInventory": {
+    "head": {},
+    "chest": {},
+    "legs": {},
+    "feet": {},
+    "mainHand": {},
+    "offHand": {},
+    "base": {}
+  },
+  "playerInfo": {
+    "lastPlace": {},
+    "creaturesSlain": {}
   }
 }

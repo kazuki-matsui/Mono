@@ -1,10 +1,10 @@
 require('dotenv').config();
-const jsonData = require('./test.json');
+let variables = require('./World/citrus/variables.json');
 const {
     Client,
     IntentsBitField,
-    ButtonBuilder,
-    ButtonStyle,
+    StringSelectMenuBuilder,
+    StringSelectMenuOptionBuilder,
     ActionRowBuilder,
     ComponentType,
 } = require('discord.js');
@@ -24,39 +24,31 @@ client.on('clientReady', (client) => {
 client.on('interactionCreate', async (interaction) => {
     if (!interaction.isChatInputCommand()) return;
     if (interaction.commandName === 'home') {
-        const redButton = new ButtonBuilder()
-            .setLabel('Red')
-            .setEmoji('🍎')
-            .setStyle(ButtonStyle.Danger)
-            .setCustomId('red');
-        const greenButton = new ButtonBuilder()
-            .setLabel('Green')
-            .setEmoji('🍏')
-            .setStyle(ButtonStyle.Success)
-            .setCustomId('green');
-        const linkButton = new ButtonBuilder()
-            .setLabel('Link')
-            .setEmoji('🗞️')
-            .setStyle(ButtonStyle.Link)
-            .setURL('https://discord.com/channels/1228073258948231291/1496886786796949657');
-        const actionRow = new ActionRowBuilder().addComponents(redButton, greenButton, linkButton);
-        const reply = await interaction.reply({content: '# Home 🏡', components: [actionRow]});
+        const selectMenu = new StringSelectMenuBuilder()
+            .setCustomId('colors')
+            .setPlaceholder('Select color')
+            .setMinValues(2)
+            .setMaxValues(3)
+            .addOptions(
+                new StringSelectMenuOptionBuilder().setEmoji('💙').setValue('blue').setLabel('Blue'),
+                new StringSelectMenuOptionBuilder().setEmoji('💚').setValue('green').setLabel('Green'),
+                new StringSelectMenuOptionBuilder().setEmoji('💛').setValue('yellow').setLabel('Yellow'),
+                new StringSelectMenuOptionBuilder().setEmoji('🧡').setValue('orange').setLabel('Orange'));
+        const actionRow = new ActionRowBuilder().addComponents(selectMenu);
+        const reply = await interaction.reply({content: "# Choose", components: [actionRow]});
 
         const collector = reply.createMessageComponentCollector({
-            componentType: ComponentType.Button,
+            componentType: ComponentType.StringSelect,
+
         });
-        collector.on('collect', (interactionButton) => {
-            if(interactionButton.customId === 'red') {
-                jsonData.buttonValue[interactionButton.user.id] = 'red';
-                interactionButton.reply(jsonData.buttonValue[interactionButton.user.id]);
-            } else if (interactionButton.customId === 'green') {
-                jsonData.buttonValue[interactionButton.user.id] = 'green';
-                interactionButton.reply(jsonData.buttonValue[interactionButton.user.id]);
-            }
-        });
+        collector.on('collect', (interactionSelectMenu) => {
+            variables.playerInventory.base[interactionSelectMenu.user.id] = interactionSelectMenu.values;
+            console.log(variables);
+            interactionSelectMenu.reply('## Colors Chosen: ' + interactionSelectMenu.values)
+        })
     }
     if (interaction.commandName === 'cheats') {
-        interaction.reply(jsonData.buttonValue[interaction.user.id] ?? 'No selection yet');
+        interaction.reply(variables.playerInventory.base[interaction.user.id] ?? 'No selection yet');
     }
 });
 
