@@ -48,7 +48,18 @@ client.on('interactionCreate', async (interaction) => {
         })
     }
     if (interaction.commandName === 'cheats') {
-        interaction.reply(variables.playerInventory.base[interaction.user.id] ?? 'No selection yet');
+        try{
+            const variables = variables.playerInventory.base[interaction.user.id];
+            if (!variables) {
+                await interaction.reply('No selection yet');
+                return;
+            }
+            await interaction.reply(`Current selection: ${variables.selected}`);
+        }
+        catch (error) {
+            console.error('Error handling /cheats command:', error);
+            await interaction.reply('An error occurred while processing your command.');
+        }
     }
 });
 

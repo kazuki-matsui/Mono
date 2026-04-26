@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35beea1c-93cb-4737-a340-56d67cb18647" name="Changes" comment="Changed the variables.json in order for them to correctly work with the implemented system.">
+    <list default="true" id="35beea1c-93cb-4737-a340-56d67cb18647" name="Changes" comment="Removed test.json as I was no longer testing.&#10;Changed variables.json to include playerInventory and playerInfo.&#10;Updated apple.json to better acknowledge which state is default.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/World/citrus/item/apple.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/World/citrus/item/apple.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/World/citrus/variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/World/citrus/variables.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +152,7 @@
       <workItem from="1776692598290" duration="8979000" />
       <workItem from="1777111424483" duration="4024000" />
       <workItem from="1777115488597" duration="4196000" />
-      <workItem from="1777197588450" duration="5861000" />
+      <workItem from="1777197588450" duration="7001000" />
     </task>
     <task id="LOCAL-00001" summary="Added World.mono&#10;It is an archive based on zip and is composed of JSON to handle game data">
       <option name="closed" value="true" />
@@ -357,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777119801327</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Removed test.json as I was no longer testing.&#10;Changed variables.json to include playerInventory and playerInfo.&#10;Updated apple.json to better acknowledge which state is default.">
+      <option name="closed" value="true" />
+      <created>1777205879821</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1777205879821</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +381,7 @@
     <MESSAGE value="gix" />
     <MESSAGE value="Made changes to commands. Tried testing link buttons and button collectors" />
     <MESSAGE value="Changed the variables.json in order for them to correctly work with the implemented system." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the variables.json in order for them to correctly work with the implemented system." />
+    <MESSAGE value="Removed test.json as I was no longer testing.&#10;Changed variables.json to include playerInventory and playerInfo.&#10;Updated apple.json to better acknowledge which state is default." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed test.json as I was no longer testing.&#10;Changed variables.json to include playerInventory and playerInfo.&#10;Updated apple.json to better acknowledge which state is default." />
   </component>
 </project>
