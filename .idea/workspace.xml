@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35beea1c-93cb-4737-a340-56d67cb18647" name="Changes" comment="Removed test.json as I was no longer testing.&#10;Changed variables.json to include playerInventory and playerInfo.&#10;Updated apple.json to better acknowledge which state is default.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    <list default="true" id="35beea1c-93cb-4737-a340-56d67cb18647" name="Changes" comment="Made /cheats command create Audio channel and then loop music inside it. Added music and sound folder to World (data) so the program has a place where to grab music and sounds">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +154,7 @@
       <workItem from="1777197588450" duration="9028000" />
       <workItem from="1777644836143" duration="439000" />
       <workItem from="1777663386269" duration="5351000" />
-      <workItem from="1777706554382" duration="18282000" />
+      <workItem from="1777706554382" duration="18606000" />
     </task>
     <task id="LOCAL-00001" summary="Added World.mono&#10;It is an archive based on zip and is composed of JSON to handle game data">
       <option name="closed" value="true" />
@@ -373,7 +372,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777207531777</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Made /cheats command create Audio channel and then loop music inside it. Added music and sound folder to World (data) so the program has a place where to grab music and sounds">
+      <option name="closed" value="true" />
+      <created>1777727761121</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1777727761121</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Made /cheats command create Audio channel and then loop music inside it. Added music and sound folder to World (data) so the program has a place where to grab music and sounds">
+      <option name="closed" value="true" />
+      <created>1777727856320</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1777727856320</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,6 +408,7 @@
     <MESSAGE value="Made changes to commands. Tried testing link buttons and button collectors" />
     <MESSAGE value="Changed the variables.json in order for them to correctly work with the implemented system." />
     <MESSAGE value="Removed test.json as I was no longer testing.&#10;Changed variables.json to include playerInventory and playerInfo.&#10;Updated apple.json to better acknowledge which state is default." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed test.json as I was no longer testing.&#10;Changed variables.json to include playerInventory and playerInfo.&#10;Updated apple.json to better acknowledge which state is default." />
+    <MESSAGE value="Made /cheats command create Audio channel and then loop music inside it. Added music and sound folder to World (data) so the program has a place where to grab music and sounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made /cheats command create Audio channel and then loop music inside it. Added music and sound folder to World (data) so the program has a place where to grab music and sounds" />
   </component>
 </project>
