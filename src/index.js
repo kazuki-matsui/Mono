@@ -99,14 +99,14 @@ client.on('interactionCreate', async (interaction) => {
                     newState.member.id === interaction.user.id &&
                     newState.channelId === voiceChannel.id
                 ) {
-                    client.off('voiceStateUpdate', handler);
-                    resolve();
+                    client.off('voiceStateUpdate', handler)
+                    resolve()
                 }
-            };
+            }
 
-            client.on('voiceStateUpdate', handler);
+            client.on('voiceStateUpdate', handler)
         })
-        await new Promise(resolve => setTimeout(resolve, 200));
+        await new Promise(resolve => setTimeout(resolve, 200))
 
 
         player.play(createAudioResource(createReadStream('./src/World/citrus/assets/music/mystery.mp3'), {
