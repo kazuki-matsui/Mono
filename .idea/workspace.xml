@@ -77,7 +77,7 @@
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kazuki/WebstormProjects/Mono/src/World/citrus/dimension/astral/apex&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kazuki/WebstormProjects/Mono/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -90,18 +90,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/astral/apex" />
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/astral/abyss" />
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/the_board/encounter" />
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/verdant/surface" />
-      <recent name="$PROJECT_DIR$/src/World/citrus/dimension/the_board" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/World/citrus/assets/music" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/the_board" />
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/verdant/cave" />
       <recent name="$PROJECT_DIR$/src/World/citrus/dimension/verdant/surface" />
-      <recent name="$PROJECT_DIR$/src/World/citrus/dimension/verdant" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -152,7 +152,10 @@
       <workItem from="1776692598290" duration="8979000" />
       <workItem from="1777111424483" duration="4024000" />
       <workItem from="1777115488597" duration="4196000" />
-      <workItem from="1777197588450" duration="7001000" />
+      <workItem from="1777197588450" duration="9028000" />
+      <workItem from="1777644836143" duration="439000" />
+      <workItem from="1777663386269" duration="5351000" />
+      <workItem from="1777706554382" duration="18282000" />
     </task>
     <task id="LOCAL-00001" summary="Added World.mono&#10;It is an archive based on zip and is composed of JSON to handle game data">
       <option name="closed" value="true" />
@@ -362,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777205879821</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Removed test.json as I was no longer testing.&#10;Changed variables.json to include playerInventory and playerInfo.&#10;Updated apple.json to better acknowledge which state is default.">
+      <option name="closed" value="true" />
+      <created>1777207531777</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1777207531777</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
