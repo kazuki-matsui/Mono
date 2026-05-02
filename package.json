@@ -1,0 +1,26 @@
+{
+  "name": "mono",
+  "version": "3.0alpha",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazuki-matsui/Mono.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://discord.com/channels/1006869618058604615/1041735071637442640"
+  },
+  "homepage": "https://discord.gg/7vvSqNGgyg",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2"
+  }
+}
