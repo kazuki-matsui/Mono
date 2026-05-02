@@ -154,7 +154,7 @@
       <workItem from="1777197588450" duration="9028000" />
       <workItem from="1777644836143" duration="439000" />
       <workItem from="1777663386269" duration="5351000" />
-      <workItem from="1777706554382" duration="18606000" />
+      <workItem from="1777706554382" duration="18932000" />
     </task>
     <task id="LOCAL-00001" summary="Added World.mono&#10;It is an archive based on zip and is composed of JSON to handle game data">
       <option name="closed" value="true" />
@@ -388,7 +388,31 @@
       <option name="project" value="LOCAL" />
       <updated>1777727856320</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Made /cheats command create Audio channel and then loop music inside it. Added music and sound folder to World (data) so the program has a place where to grab music and sounds">
+      <option name="closed" value="true" />
+      <created>1777727953224</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1777727953224</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Made /cheats command create Audio channel and then loop music inside it. Added music and sound folder to World (data) so the program has a place where to grab music and sounds">
+      <option name="closed" value="true" />
+      <created>1777728118257</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1777728118257</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Made /cheats command create Audio channel and then loop music inside it. Added music and sound folder to World (data) so the program has a place where to grab music and sounds">
+      <option name="closed" value="true" />
+      <created>1777728175509</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1777728175509</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
