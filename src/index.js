@@ -15,10 +15,8 @@ const {
     joinVoiceChannel,
     createAudioPlayer,
     createAudioResource,
-    StreamType,
     AudioPlayerStatus
 } = require('@discordjs/voice');
-const { createReadStream } = require('fs');
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
@@ -108,14 +106,9 @@ client.on('interactionCreate', async (interaction) => {
         })
         await new Promise(resolve => setTimeout(resolve, 200))
 
-
-        player.play(createAudioResource(createReadStream('./src/World/citrus/assets/music/mystery.mp3'), {
-            inputType: StreamType.Arbitrary
-        }))
+        player.play(createAudioResource('./src/World/citrus/assets/music/mystery.mp3'))
         player.on(AudioPlayerStatus.Idle, () => {
-            player.play(createAudioResource(createReadStream('./src/World/citrus/assets/music/mystery.mp3'), {
-                inputType: StreamType.Arbitrary
-            }))
+            player.play(createAudioResource('./src/World/citrus/assets/music/mystery.mp3'))
         })
     }
 })
