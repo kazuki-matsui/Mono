@@ -105,7 +105,7 @@ client.on('interactionCreate', async (interaction) => {
             };
 
             client.on('voiceStateUpdate', handler);
-        });
+        })
         await new Promise(resolve => setTimeout(resolve, 200));
 
 
