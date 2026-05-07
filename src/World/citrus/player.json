@@ -1,0 +1,79 @@
+{
+  "name": {},
+  "avatar": {
+    "upper": {
+      "hat": {},
+      "hair": {},
+      "head_accessories": {},
+      "eyes": {},
+      "eyebrows": {},
+      "mouth": {},
+      "nose": {},
+      "ears": {}
+    },
+    "lower": {
+      "muscle": {},
+      "clothing": {},
+      "hands": {},
+      "gloves": {},
+      "feet": {},
+      "pants": {}
+    }
+  },
+  "stats": {
+    "forced": {
+      "health":  {},
+      "endurance": {},
+      "energy": {},
+      "damage": {},
+      "speed":  {},
+      "notice":  {},
+      "temperatureToleranceWarm":  {},
+      "temperatureToleranceHot": {},
+      "experience": {},
+      "divinityAlignment": {},
+      "karma": {},
+      "effectsImmuneTo": {}
+    },
+    "dynamic": {
+      "health": {},
+      "energy": {},
+      "temperature": {},
+      "arcana": {}
+    }
+  },
+  "playerInventory": {
+    "head": {},
+    "chest": {},
+    "legs": {},
+    "feet": {},
+    "mainHand": {},
+    "gloves": {},
+    "offHand": {},
+    "base": {
+      "items": {},
+      "currency": {}
+    }
+  },
+  "reputation": {
+    "global": {
+      "value": {},
+      "fraudster": {},
+      "thief": {},
+      "robber": {},
+      "jerk": {},
+      "jokester": {},
+      "murderer": {}
+    },
+    "continents": {},
+    "islands": {},
+    "town": {}
+  },
+  "attacks": {
+
+  },
+  "info": {
+    "lastPlace": {},
+    "creaturesSlain": {}
+  }
+}

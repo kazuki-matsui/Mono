@@ -1,34 +1,35 @@
 {
     "name": "Troll",
-    "avatar": "troll",
+    "avatar": "troll.png",
     "stats": {
         "healthMax": 300,
-        "health": "healthMax",
+        "health": null,
         "endurance": 0,
         "damage": 20,
         "speed": "low",
         "notice": "low"
     },
-    "attacks": [
-        {
+    "attacks": {
+        "smash": {
             "name": "Smash",
-            "emoji": "🔨",
+            "icon": "🔨",
             "strength": 1,
             "frequency": 1,
             "special": {}
         },
-        {
+        "grab": {
             "name": "Grab",
-            "emoji": "✊",
+            "icon": "✊",
             "strength": 2,
             "frequency": 3,
             "unavoidable": true,
             "special": {}
         }
-    ],
+    },
+    "currentAttack": null,
     "location": ["verdant.surface"],
     "spawn_rarity": 6,
-    "boss": true,
+    "title": "Boss ☠️",
     "onTurn": [],
     "onAttack": [],
     "onDamaged": []
