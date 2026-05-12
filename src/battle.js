@@ -1,4 +1,4 @@
-let battle = require('./World/citrus/creature/troll.json');
+let battle = require('./World/citrus/content/creature/troll.json');
 const {
     SectionBuilder,
     SeparatorBuilder,

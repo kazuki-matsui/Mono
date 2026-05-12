@@ -70,7 +70,21 @@
     "town": {}
   },
   "attacks": {
-
+    "smash": {
+      "name": "Attack",
+      "icon": "✊",
+      "strength": 1,
+      "unavoidable": true,
+      "special": {}
+    },
+    "grab": {
+      "name": "Grab",
+      "icon": "✊",
+      "strength": 2,
+      "frequency": 3,
+      "unavoidable": true,
+      "special": {}
+    }
   },
   "info": {
     "lastPlace": {},

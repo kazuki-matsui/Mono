@@ -1,0 +1,22 @@
+{
+  "METADATA": {
+    "asset": null,
+    "content": "item"
+  },
+  "CONTENTDATA": {
+    "states": {
+      "default": {
+        "name": "name",
+        "emoji": "emoji"
+      },
+      "MULTIOPTION": {
+        "name": "name",
+        "emoji": "emoji"
+      }
+    },
+    "category": "category",
+    "rarity": "rarity",
+    "value": "value",
+    "tradeable": "tradeable"
+  }
+}

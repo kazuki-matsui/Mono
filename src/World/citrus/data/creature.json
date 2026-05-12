@@ -1,0 +1,79 @@
+{
+  "METADATA": {
+    "asset": "creature",
+    "content": "creature"
+  },
+  "CONTENTDATA": {
+    "name": "name",
+    "ASSET": {"avatar": "avatar"},
+    "title": "title",
+    "spawn": {
+      "location": "location",
+      "rarity": "rarity"
+    },
+    "stats": {
+      "healthMax": "healthMax",
+      "health": "health",
+      "endurance": "endurance",
+      "damage": "damage",
+      "speed": "speed",
+      "notice": "notice"
+    },
+    "currentAttack": "currentAttack",
+    "attackAmount": "attackAmount",
+    "attacks": {
+      "MULTIOPTION": {
+        "name": "name",
+        "icon": "icon",
+        "strength": "strength",
+        "frequency": "frequency",
+        "unavoidable": "unavoidable",
+        "function": "function"
+      }
+    },
+    "onTurn": {
+      "MULTIOPTION:default": {
+        "name": "name",
+        "icon": "icon",
+        "strength": "strength",
+        "condition": "condition",
+        "unavoidable": "unavoidable",
+        "function": "function"
+      },
+      "MULTIOPTION": {
+        "name": "name",
+        "icon": "icon",
+        "strength": "strength",
+        "frequency": "frequency",
+        "unavoidable": "unavoidable",
+        "function": "function"
+      }
+    },
+    "onDamaged": {
+      "MULTIOPTION:default": {
+        "name": "name",
+        "icon": "icon",
+        "strength": "strength",
+        "condition": "condition",
+        "unavoidable": "unavoidable",
+        "function": "function"
+      },
+      "MULTIOPTION": {
+        "name": "name",
+        "icon": "icon",
+        "strength": "strength",
+        "frequency": "frequency",
+        "unavoidable": "unavoidable",
+        "function": "function"
+      }
+    },
+    "onKill": {
+      "rarity": "rarity",
+      "function": "function"
+    },
+    "onDefeat": {
+      "rarity": "rarity",
+      "function": "function"
+    }
+  }
+}
