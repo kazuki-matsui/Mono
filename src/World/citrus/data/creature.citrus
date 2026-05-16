@@ -1,0 +1,34 @@
+{
+  asset = creature
+  content = creature
+}
+{
+  name
+  avatar
+  title
+  spawn = {
+    location
+    rarity
+  }
+  stats = {
+    healthMax
+    health
+    endurance
+    damage
+    speed
+    notice
+  }
+  currentAttack
+  attackAmount
+  attacks = [
+    §null = {
+      name
+      icon
+      strength
+      frequency
+      unavoidable
+      function
+    }
+  ]
+  function
+  }
